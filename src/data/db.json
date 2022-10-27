@@ -35,6 +35,41 @@
                     "userId": 2
                 }
             ]
+        },    {
+            "id":3,
+            "code": "AV16554",
+            "dateVuelo": "30/10/2022",
+            "dia":"Miercoles",
+            "timeVuelo": "10:00 am",
+            "llegada":"11:30 am",
+            "itinerario":{
+                "origen": "Cartagena",
+                "destino": "Medellín",
+                "scales": "sin escalas",
+                
+                "duracion": "1h 30min",
+                "precio": "100.000 COP"
+            },
+            "asientos":[
+                {
+                    "id": 1,
+                    "code": "A01",
+                    "isOcupado": true,
+                    "userId": 1
+                },
+                {
+                    "id": 2,
+                    "code": "B01",
+                    "isOcupado": false,
+                    "userId": null
+                },
+                {
+                    "id": 3,
+                    "code": "B05",
+                    "isOcupado": true,
+                    "userId": 2
+                }
+            ]
         },
         {
             "id":2,
