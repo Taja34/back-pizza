@@ -4,6 +4,7 @@
             "id":1,
             "code": "AV16544",
             "dateVuelo": "15/10/2022",
+            "dia":"Martes",
             "timeVuelo": "10:00 am",
             "llegada":"11:30 am",
             "itinerario":{
@@ -41,6 +42,7 @@
             "dateVuelo": "16/10/2022",
             "timeVuelo": "9:00 am",
             "llegada":"11:30 am",
+            "dia":"Lunes",
             "itinerario":{
                 "origen": "Medellín",
                 "destino": "Cartagena",
