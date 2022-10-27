@@ -5,10 +5,12 @@
             "code": "AV16544",
             "dateVuelo": "15/10/2022",
             "timeVuelo": "10:00 am",
+            "llegada":"11:30 am",
             "itinerario":{
                 "origen": "Cartagena",
                 "destino": "Medellín",
-                "scales": false,
+                "scales": "sin escalas",
+                
                 "duracion": "1h 30min",
                 "precio": "100.000 COP"
             },
@@ -38,10 +40,11 @@
             "code": "AV16545",
             "dateVuelo": "16/10/2022",
             "timeVuelo": "9:00 am",
+            "llegada":"11:30 am",
             "itinerario":{
                 "origen": "Medellín",
                 "destino": "Cartagena",
-                "scales": false,
+                "scales": "sin escalas",
                 "duracion": "1h 30min",
                 "precio": "100.000 COP"
             },
