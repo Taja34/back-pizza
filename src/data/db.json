@@ -48,7 +48,7 @@
                 "scales": "sin escalas",
                 
                 "duracion": "1h 30min",
-                "precio": "100.000 COP"
+                "precio": 100.000 
             },
             "asientos":[
                 {
@@ -83,7 +83,7 @@
                 "destino": "Cartagena",
                 "scales": "sin escalas",
                 "duracion": "1h 30min",
-                "precio": "100.000 COP"
+                "precio": 100.000 
             },
             "asientos":[
                 {
@@ -100,6 +100,57 @@
                 },
                 {
                     "id": 3,
+                    "code": "B05",
+                    "isOcupado": true,
+                    "userId": 2
+                }, {
+                    "id": 4,
+                    "code": "A01",
+                    "isOcupado": true,
+                    "userId": 1
+                },
+                {
+                    "id": 5,
+                    "code": "B01",
+                    "isOcupado": false,
+                    "userId": null
+                },
+                {
+                    "id": 6,
+                    "code": "B05",
+                    "isOcupado": true,
+                    "userId": 2
+                }, {
+                    "id": 7,
+                    "code": "A01",
+                    "isOcupado": true,
+                    "userId": 1
+                },
+                {
+                    "id": 8,
+                    "code": "B01",
+                    "isOcupado": false,
+                    "userId": null
+                },
+                {
+                    "id": 9,
+                    "code": "B05",
+                    "isOcupado": true,
+                    "userId": 2
+                }, {
+                    "id": 10,
+                    "code": "A01",
+                    "isOcupado": true,
+                    "userId": 1
+                },
+                {
+                    "id": 11,
+                    "code": "B01",
+                    "isOcupado": false,
+                    "userId": null
+                },
+                {
+                    "id": 12,
                     "code": "B05",
                     "isOcupado": true,
                     "userId": 2
