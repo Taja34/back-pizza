@@ -98,10 +98,17 @@
                     "isOcupado": false,
                     "userId": null
                 },
+            
                 {
                     "id": 3,
                     "code": "B05",
                     "isOcupado": true,
+                    "userId": 2
+                },
+                {
+                    "id": 0,
+                    "code": "B05",
+                    "isOcupado": 0,
                     "userId": 2
                 }, {
                     "id": 4,
