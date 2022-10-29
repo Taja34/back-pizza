@@ -344,12 +344,8 @@
                 "lastName": "Camacho",
                 "age": "19",
                 "tipoId": "C.C",
-                "noId": "16556",
-                "address":{
-                    "city": "Cartagena",
-                    "country": "Colombia",
-                    "barrio": "Los Ejecutivos"
-                }
+                "noId": "1655"
+                
             },
             "vueloId": 1,
             "asiento": "A05"            
