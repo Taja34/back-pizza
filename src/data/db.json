@@ -1,372 +1,55 @@
 {
-    "vuelos":[
-        {
-            "id":1,
-            "code": "AV16544",
-            "dateVuelo": "15/10/2022",
-            "dia":"Martes",
-            "timeVuelo": "10:00 am",
-            "llegada":"11:30 am",
-            "itinerario":{
-                "origen": "Cartagena",
-                "destino": "Medellín",
-                "scales": "sin escalas",
-                
-                "duracion": "1h 30min",
-                "precio": "100.000 COP"
-            },
-            "asientos":[
-                {
-                    "id": 1,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 2,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-                {
-                    "id": 3,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                }
-            ]
-        },    {
-            "id":3,
-            "code": "AV16554",
-            "dateVuelo": "30/10/2022",
-            "dia":"Miercoles",
-            "timeVuelo": "10:00 am",
-            "llegada":"11:30 am",
-            "itinerario":{
-                "origen": "Cartagena",
-                "destino": "Medellín",
-                "scales": "sin escalas",
-                
-                "duracion": "1h 30min",
-                "precio": 100.000 
-            },
-            "asientos":[
-                {
-                    "id": 1,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 2,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-                {
-                    "id": 3,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                }
-            ]
-        },
-        {
-            "id":2,
-            "code": "AV16545",
-            "dateVuelo": "16/10/2022",
-            "timeVuelo": "9:00 am",
-            "llegada":"11:30 am",
-            "dia":"Lunes",
-            "itinerario":{
-                "origen": "Medellín",
-                "destino": "Cartagena",
-                "scales": "sin escalas",
-                "duracion": "1h 30min",
-                "precio": 100.000 
-            },
-            "asientos":[
-                {
-                    "id": 1,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 2,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-            
-                {
-                    "id": 3,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                },
-                {
-                    "id": 100,
-                    "code": "1",
-                    "isOcupado": 0,
-                    "userId": 2
-                }, {
-                    "id": 4,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 5,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-                {
-                    "id": 6,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                }, {
-                    "id": 7,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 8,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-                {
-                    "id": 9,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                },
-                {
-                    "id": 100,
-                    "code": "2",
-                    "isOcupado": 0,
-                    "userId": 2
-                }, {
-                    "id": 10,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 11,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-                {
-                    "id": 12,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                }, {
-                    "id": 13,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 14,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-            
-                {
-                    "id": 15,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                },
-                {
-                    "id": 100,
-                    "code": "3",
-                    "isOcupado": 0,
-                    "userId": 2
-                }, {
-                    "id": 16,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 17,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-                {
-                    "id": 18,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                }, {
-                    "id": 19,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 20,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-            
-                {
-                    "id": 21,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                },
-                {
-                    "id": 100,
-                    "code": "4",
-                    "isOcupado": 0,
-                    "userId": 2
-                }, {
-                    "id": 22,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 23,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-                {
-                    "id": 24,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                }, {
-                    "id": 25,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 26,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-            
-                {
-                    "id": 27,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                },
-                {
-                    "id": 100,
-                    "code": "5",
-                    "isOcupado": 0,
-                    "userId": 2
-                }, {
-                    "id": 28,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 29,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-                {
-                    "id": 30,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                }, {
-                    "id": 31,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 32,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-            
-                {
-                    "id": 33,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                },
-                {
-                    "id": 100,
-                    "code": "6",
-                    "isOcupado": 0,
-                    "userId": 2
-                }, {
-                    "id": 34,
-                    "code": "A01",
-                    "isOcupado": true,
-                    "userId": 1
-                },
-                {
-                    "id": 35,
-                    "code": "B01",
-                    "isOcupado": false,
-                    "userId": null
-                },
-                {
-                    "id": 36,
-                    "code": "B05",
-                    "isOcupado": true,
-                    "userId": 2
-                }
-            ]
-        }
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Carlos",
+      "email": "Carlos@gmail.com",
+      "contraseña": "1234"
+      },
+      {
+      "id": 2,
+      "nombre": "Juan",
+      "email": "Juan@gmail.com",
+      "contraseña": "456"
+    }
+  ],
+  "pizzas": [
+    {
+      "id": 1,
+        "name": "Pizza-HAWAINA",
+        "precio": 10000,
+        "img": "https://t1.rg.ltmcdn.com/es/posts/1/2/6/original_pizza_hawaiana_50621_600.jpg",
+        "img2": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/11/como-hacer-pizza-hawaiana.jpg",
+        "img3": "https://napolicartagena.com/wp-content/uploads/2022/01/La-Pizza-Hawaiana-de-Canada.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Pizza-POLLO",
+      "precio": 15000,
+      "img": "https://i.blogs.es/40c9b7/pizza-casera-champinon/840_560.jpg",
+      "img2": "http://assets.kraftfoods.com/recipe_images/opendeploy/136150_640x428.jpg",
+      "img3": "https://images.hola.com/imagenes/cocina/recetas/20200123158802/receta-pizza-pollo-barbacoa/0-772-922/pizza-pollo-adobe-m.jpg"
+      }
+      
+  ],
+  "reseñas":[
+    {
+      "id": 1,
 
-    ],
-    "pasajeros":[
-        {
-            "id": 1,
-            "information":{
-                "name": "Ricardo",
-                "lastName": "Camacho",
-                "age": "19",
-                "tipoId": "C.C",
-                "noId": "1655"
-                
-            },
-            "vueloId": 1,
-            "asiento": "A05"            
-        },
-        {
-            "id": 2,
-            "information":{
-                "name": "Armando",
-                "lastName": "Camacho",
-                "age": "50",
-                "tipoId": "C.C",
-                "noId": "1655156466",
-                "address":{
-                    "city": "Cartagena",
-                    "country": "Colombia",
-                    "barrio": "Los Ejecutivos"
-                }
-            },
-            "vueloId": 1,
-            "asiento": "B05"            
-        }
-    ]
+        "name": "Ricardo",
+        "comentario": "Muy buena",
+        "puntuacion":5
+      
 
+    },
+    {
+      "id": 2,
+
+        "name": "Juan",
+        "comentario": "Regular",
+        "puntuacion":3
+      
+
+    }
+  ]
 }
